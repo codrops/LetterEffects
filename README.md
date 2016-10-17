@@ -6,6 +6,8 @@ A set of inspirational letter animations for display typography effects powered 
 
 [Demo](http://tympanus.net/Development/LetterEffects/)
 
+![Letter Effects](http://tympanus.net/codrops/wp-content/uploads/2016/10/LetterEffects_800x600.jpg)
+
 ## License
 
 Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
