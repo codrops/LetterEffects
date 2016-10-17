@@ -1,6 +1,6 @@
 # Letter Effects
 
-A set of inspirational letter effects powered by Julian Garnier's [anime.js](http://anime-js.com/).
+A set of inspirational letter animations for display typography effects powered by Julian Garnier's anime.js.
 
 [Article on Codrops](http://tympanus.net/codrops/?p=28372)
 
