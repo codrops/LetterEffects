@@ -6,7 +6,7 @@ A set of inspirational letter animations for display typography effects powered 
 
 [Demo](http://tympanus.net/Development/LetterEffects/)
 
-![Letter Effects](http://tympanus.net/codrops/wp-content/uploads/2016/10/LetterEffects_800x600.jpg)
+This demo is sponsored by [Hired: Get 5+ Job Offers in 1 Week with Hired](https://goo.gl/E3OUW6).
 
 ## License
 

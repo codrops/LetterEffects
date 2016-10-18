@@ -130,10 +130,10 @@
 		var self = this;
 		animeProps.complete = function() {
 			self.rendered = !self.rendered;
+			self.isAnimating = false;
 			if( settings && settings.complete ) {
 				settings.complete();
 			}
-			self.isAnimating = false;
 		}
 
 		anime(animeProps);

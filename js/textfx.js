@@ -373,7 +373,7 @@
 				easing: 'easeInOutQuint',
 				opacity: 1,
 				scaleY: [8,1],
-				scaleX: [0.8,1],
+				scaleX: [0.5,1],
 				translateY: ['-100%','0%']
 			},
 			out: {
@@ -385,7 +385,7 @@
 					value: 8,
 					delay: function(el, index) { return 100+index*150; },
 				},
-				scaleX: 0.8,
+				scaleX: 0.5,
 				translateY: '100%'
 			}
 		}

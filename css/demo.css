@@ -335,10 +335,12 @@ a:focus {
 .github-icon {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
 	color: #5141d6;
 	border: 0;
 	fill: #fff;
+	-webkit-transform: scale(-1, 1);
+	transform: scale(-1, 1);
 }
 
 .github-corner:hover .octo-arm {
@@ -346,18 +348,9 @@ a:focus {
 }
 
 @keyframes octocat-wave {
-	0%,
-	100% {
-		transform: rotate(0);
-	}
-	20%,
-	60% {
-		transform: rotate(-25deg);
-	}
-	40%,
-	80% {
-		transform: rotate(10deg);
-	}
+	0%, 100% { transform: rotate(0); }
+	20%, 60% { transform: rotate(-25deg); }
+	40%, 80% { transform: rotate(10deg); }
 }
 
 @media (max-width:500px) {
@@ -801,10 +794,16 @@ a:focus {
 }
 
 @media screen and (max-width:60em) {
+	.codrops-header {
+		background: #5141d6;
+	}
 	.codrops-header__title {
 		font-size: 2.65em;
 	}
 	.content--c12 .deco-image {
 		display: none;
+	}
+	.content {
+		height: calc(100vh - 124px);
 	}
 }
