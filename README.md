@@ -2,6 +2,8 @@
 
 A set of inspirational letter animations for display typography effects powered by Julian Garnier's anime.js.
 
+![Letter Effects](http://tympanus.net/codrops/wp-content/uploads/2016/10/LetterEffects_800x600.jpg)
+
 [Article on Codrops](http://tympanus.net/codrops/?p=28372)
 
 [Demo](http://tympanus.net/Development/LetterEffects/)
