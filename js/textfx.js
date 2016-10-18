@@ -429,8 +429,16 @@
 		// Custom effect
 		var iscustom = this._checkCustomFx(direction, effect, callback);
 
-		var animOpts = effecSettings[direction];
-		animOpts.targets = this.letters;
+		var animOpts = effecSettings[direction],
+			target = this.letters;
+		
+		target.forEach(function(t,p) { 
+			if( t.innerHTML === ' ' ) {
+				target.splice(p, 1);
+			}
+		});
+
+		animOpts.targets = target;
 		
 		if( !iscustom ) {
 			animOpts.complete = callback;

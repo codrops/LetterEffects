@@ -34,6 +34,7 @@
 	margin: 0;
 	position: relative;
 	padding: 0 0.5em 0 1em;
+	max-width: calc(100% - 125px);
 }
 
 .pater__description {
@@ -73,6 +74,7 @@
 		padding: 15px;
 		background: #4637c4;
 		z-index: 100;
+		max-width: none;
 	}
 	.pater__title::after {
 		content: 'Sponsor';
