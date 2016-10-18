@@ -632,6 +632,37 @@
 
 			document.querySelector('.btn--modal-trigger').addEventListener('click', openCredits);
 			modalCloseCtrl.addEventListener('click', closeCredits);
+
+			var paterEl = document.querySelector('.pater'),
+				pater = new TextFx(paterEl.querySelector('.pater__title')),
+				fxPater = {
+					in: {
+						duration: 400,
+						delay: function(el, index) { return 50+index*20; },
+						easing: 'easeOutExpo',
+						opacity: 1,
+						translateY: ['50%','0%']
+					},
+					out: {
+						duration: 400,
+						delay: function(el, index) { 
+							return index*20; 
+						},
+						easing: 'easeOutExpo',
+						opacity: 0,
+						translateY: '-50%'
+					}
+				};
+			
+			paterEl.addEventListener('mouseenter', function() {
+				pater.hide();
+				setTimeout(function() {
+					pater.show(fxPater);	
+				},60);
+			});
+			paterEl.addEventListener('mouseleave', function() {
+				pater.show();
+			});
 		})();
 		</script>
 	</body>

@@ -101,4 +101,9 @@
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	}
+	/* Fix for FF */
+	.pater .letter21 {
+		page-break-after: always;
+		break-after: always;
+	}
 }
