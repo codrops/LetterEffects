@@ -392,6 +392,7 @@
 	};
 
 	TextFx.prototype._init = function() {
+		this.el.classList.add('letter-effect');
 		// Split word(s) into letters/spans.
 		charming(this.el, {classPrefix: 'letter'});
 		this.letters = [].slice.call(this.el.querySelectorAll('span'));

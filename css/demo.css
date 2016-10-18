@@ -555,18 +555,6 @@ a:focus {
 	position: relative;
 }
 
-.js .title {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
 .title--centered {
 	width: 100%;
 	text-align: center;
